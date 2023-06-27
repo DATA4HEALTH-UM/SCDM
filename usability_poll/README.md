@@ -6,7 +6,7 @@ This folder contains the results of the surveys completed by the users after usi
   - [Q1.pdf](./Q1.pdf) SUS: A 'quick and dirty' Usability Scale[^sus].
   - [Q2.pdf](./Q2.pdf) custom survey regarding the background of the participants and the concrete domain of the use case.
 
-The group of participants was formed by 4 machine learning experts in charge of the development of the machine learning models in the Precise4Q project. In particular, the participants were asked to perform the following queries about the harmonized data before filling the surveys:
+The group of participants was formed by 4 experts in data analysis familiar with the datasets integrated. In particular, the participants were asked to perform the following queries about the harmonized data before filling the surveys:
 
   1. Get all patients from the EVSF dataset who had a thrombotic stroke and that live in a residence in stable situation (Cohabiting procedure)
   2. Get all information from the EVSF dataset regarding patients' cohabiting 1000 days after an embolic stroke
