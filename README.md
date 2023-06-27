@@ -1,12 +1,10 @@
 # Semantic Common Data Model
-Semantic common data model for DATA4HEALTH project
-
 
 This repository contains the ontologies that conforms the Semantic Common Data Model (SCDM). The SCDM allows representing syntactically and/or semantically heterogeneous data in a harmonized way. Its purpose is twofold: (1) facilitating data transformations between heterogeneous data representations (e.g., having data described using certain proprietary schema and requiring it any other standardized or nor data representation) and (2) target knowledge graph-based data representation for advanced data analysis and exploitation tasks (e.g., applying knowledge graph-based technologies for data analysis and inferencing).
 
 The SCDM extends BTL2 by including concepts for defining informational aspects and integrates them with clinical entities represented by using SNOMED CT as main reference ontology for the medical domain. This requires the alingment of SNOMED CT main concepts and attributes with BTL2.
 
-The focus concept of the information model is the **ClinicalStatement** class, which is specialised by specific subclasses that represent documented medical facts (**ClinicalProcedureStatement**, **ClinicalSituationStatement**, **ObservationResultStatement**). Other classes as the one representing the subject (InformationAboutSubjectOfInformation****) and the provider of information (**InformationAboutProviderOfInformation**) or the **HealthcareProcess** class provides context to the documented medical facts. The next figure depicts the UML diagram of the current model:
+The focus concept of the information model is the **ClinicalStatement** class, which is specialised by specific subclasses that represent documented medical facts (**ClinicalProcedureStatement**, **ClinicalSituationStatement**, **ObservationResultStatement**). Other classes as the one representing the subject (**InformationAboutSubjectOfInformation**) and the provider of information (**InformationAboutProviderOfInformation**) or the **HealthcareProcess** class provides context to the documented medical facts. The next figure depicts the UML diagram of the current model:
 
 
 ![UML diagram](assets/umlModel.png "UML diagram of the Semantic Common Data Model.")
