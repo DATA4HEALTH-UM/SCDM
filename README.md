@@ -18,3 +18,16 @@ Next, we show an example of a **ClinicalSituationStatement** representing the ge
 On the other hand, the next figure depicts an example of **ObservationResultStatement**. In this case, we are representing the participation of a patient in the procedure *FM_ES_EXT_1*, which measures the *range of elbow extension*, and whose result is a numerical value (2 in this case).
 
 ![example of observation result statement](assets/observation_result_statement.png "Observation result statement representing the gender of a patient.")
+
+We distinguish three main types of clinical statements according to the SNOMED CT (SCT) concept category (i.e. Clinical Finding, Procedure and Observable Entity) to which the focus concept belongs.
+The focus concept is the main concept of a sentence. Without this concept the sentence is meaningless.
+
+1. Clinical Situation Statement: focus concept is SCT Clinical Finding
+2. Clinical Procedure Statement: focus concept is SCT Procedure
+3. Observation Result Statement: focus concept is SCT Observable entity
+
+Following, some examples of English sentences that can be represented with each of the previous clinical statements constructs.
+
+1. Clinical Situation Statement: The patient was diagnosed with diabetes mellitus;History of cardiovascular diseases; No pain; Severe headache; Glaucoma in the left eye
+2. Clinical Procedure Statement: CT scan planned; History of surgery in the heart; ECG not done; Medication administered 21/3/2019
+3. Observation Result Statement: Patient has 90/140 of blood pressure. The glucose level is 90mg/dL.
