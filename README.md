@@ -31,3 +31,20 @@ Following, some examples of English sentences that can be represented with each 
 1. Clinical Situation Statement: The patient was diagnosed with diabetes mellitus;History of cardiovascular diseases; No pain; Severe headache; Glaucoma in the left eye
 2. Clinical Procedure Statement: CT scan planned; History of surgery in the heart; ECG not done; Medication administered 21/3/2019
 3. Observation Result Statement: Patient has 90/140 of blood pressure. The glucose level is 90mg/dL.
+
+
+Next, we show several tables depicting the classes used by the SCDM:
+
+![Clinical Statement Table](assets/ClinicalStatementTable.png "Structure of a Clinical Statement")
+
+
+![Healthcare Process Table](assets/HealthcareProcessTable.png "Structure of a Healthcare process")
+
+
+![Clinical Situation Statement Table](assets/ClinicalSituationStatementTable.png "Structure of a Clinical Situation Statement")
+
+
+![Situation Table](assets/SituationTable.png "Structure of a Situation")
+
+
+![Observation Result Statement Table](assets/ObservableResultStatementTable.png "Structure of a Observation Result Statement")
